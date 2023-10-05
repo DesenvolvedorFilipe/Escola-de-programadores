@@ -1,9 +1,19 @@
 :root{
 --purple-300: #8733ff ; 
+color:var(--purple-300) ;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
 
 }
 
-p{
-color:var(--purple-300) ;
 
+
+.Sobre-Min{
+display: flex;
+align-items: center;
+font-size: 3em;
+margin-block-start: 1em;
+margin-block-end: 1em;
 }
