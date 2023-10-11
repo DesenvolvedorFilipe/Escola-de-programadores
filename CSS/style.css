@@ -1,36 +1,21 @@
-:root{
-    font-family: black;
-    color:preto(black) ;
-    
-    color : rgb(255, 255, 255);
-    width: flex;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: black;
-    flex-wrap: wrap;
-    align-content: space-between;
-    border-radius: 20px;
-    justify-content: space-evenly;
 
-    
-    color: rgb(255, 255, 255);
-    width: flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: rebeccapurple;
-    background-color: black;
-    flex-wrap: nowrap;
-    align-content: space-between;
-    border-radius: 20px;
-    align-items: center;
+    body {
+        color: rgb(255, 255, 255);
+        width: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: rebeccapurple;
+        background-color: black;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        border-radius: 20px;
+        align-items: center;
     }
 
     .title
     {
-
+  
         color: rgb(255, 255, 255);
         width: flex;
         display: flex;
@@ -44,6 +29,8 @@
         align-items: center;
     
 }
+
+
 
     .Sobre-min {
         color: rgb(255, 255, 255);
