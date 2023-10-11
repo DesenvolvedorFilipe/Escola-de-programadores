@@ -32,7 +32,7 @@
 
 
 
-    .Sobre-min {
+    .sobre-min {
         color: rgb(255, 255, 255);
         width: flex;
         display: flex;
@@ -46,7 +46,7 @@
         border-radius: 20px;
     }
     
-    .Curriculo {
+    .experiencia {
         color: rgb(255, 255, 255);
         width: flex;
         display: flex;
@@ -61,7 +61,7 @@
     }
     
     
-    .Skills {
+    .contato {
         color: rgb(255, 255, 255);
         width: flex;
         display: flex;
