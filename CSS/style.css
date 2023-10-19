@@ -1,50 +1,24 @@
 
-    body {
-        color: rgb(255, 255, 255);
-        width: flex;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        border: rebeccapurple;
-        background-color: black;
-        flex-wrap: nowrap;
-        align-content: space-between;
-        border-radius: 20px;
-        align-items: center;
-    }
+body
+{
+    color: rgb(255, 255, 255);
+    width: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: rebeccapurple;
+    background-color: black;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    border-radius: 20px;
+    align-items: center;
 
-    .title
-    {
-  
-        color: rgb(255, 255, 255);
-        width: flex;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        border: rebeccapurple;
-        background-color: black;
-        flex-wrap: nowrap;
-        align-content: space-between;
-        border-radius: 20px;
-        align-items: center;
-    
 }
 
-    .sobre-min {
-        color: rgb(255, 255, 255);
-        width: flex;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        border: rebeccapurple;
-        background-color: black;
-        flex-wrap: wrap;
-        align-content: space-between;
-        border-radius: 20px;
-    }
-    
-    .experiencia {
+
+.conteiner-one
+
+    .conteiner-tree {
         color: rgb(255, 255, 255);
         width: flex;
         display: flex;
@@ -57,18 +31,48 @@
         align-content: space-between;
     border-radius: 20px;
     }
-    
-    
-    .contato {
-        color: rgb(255, 255, 255);
-        width: flex;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        border: rebeccapurple;
-        background-color: black;
-        flex-wrap: wrap;
-        align-content: space-between;
-       border-radius: 20px;
-    }
+
+
+
+.conteiner-two  {
+    color: rgb(255, 255, 255);
+    width: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: rebeccapurple;
+    background-color: black;
+    flex-wrap: wrap;
+    align-content: space-between;
+border-radius: 20px;
+}
+
+.conteiner-tree {
+    color: rgb(255, 255, 255);
+    width: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: rebeccapurple;
+    background-color: black;
+    flex-wrap: wrap;
+    align-content: space-between;
+border-radius: 20px;
+}
+
+
+.conteiner-for {
+    color: rgb(255, 255, 255);
+    width: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: rebeccapurple;
+    background-color: black;
+    flex-wrap: wrap;
+    align-content: space-between;
+border-radius: 20px;
+}
