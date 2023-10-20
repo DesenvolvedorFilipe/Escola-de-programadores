@@ -16,11 +16,24 @@ body
 }
 
 
-.conteiner-one
+.menu
+{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: rebeccapurple;
+    background-color: black;
+    flex-wrap: wrap;
+    align-content: space-between;
+border-radius: 20px;
+}
 
-    .conteiner-tree {
+    .sobre-min {
         color: rgb(255, 255, 255);
-        width: flex;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -34,9 +47,9 @@ body
 
 
 
-.conteiner-two  {
+.skills  {
     color: rgb(255, 255, 255);
-    width: flex;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +61,7 @@ body
 border-radius: 20px;
 }
 
-.conteiner-tree {
+.contatos {
     color: rgb(255, 255, 255);
     width: flex;
     display: flex;
