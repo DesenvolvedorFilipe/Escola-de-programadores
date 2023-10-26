@@ -10,12 +10,26 @@ body{
     flex-direction: column;
 }
 
+html
+ {
+
+
+}
+
+
 .titulo
 {
+    position: fixed;
+    z-index: 100;
+    margin-left: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
     display: flex;
     border-radius: 20px;
     align-items: center;
     justify-content: space-around;
+    align-content: space-around;
     flex-wrap: wrap;
 }
 
