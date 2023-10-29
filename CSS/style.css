@@ -20,6 +20,17 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+.titulotuo
+{
+
+    color: white;
+    marker: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 .buttonsobre-min
 {
 
@@ -57,7 +68,7 @@ body{
 {
     display: flex;
     border-radius: 20px;
-    margin-top: 4%;
+    margin-top: 5%;
     flex-direction: column;
     justify-content: space-around;
     marker: none;
