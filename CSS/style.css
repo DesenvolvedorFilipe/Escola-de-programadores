@@ -1,15 +1,11 @@
 
 body{
+
     marker: none;
-
-}
-
-html
-{
-    marker: none;
-    display: flex;
-
-
+    margin: 0;
+    Display :flex;
+    flex-direction: column;
+    
 }
 
 .tituloone
@@ -21,44 +17,51 @@ html
     background-color: black;
     color: white;
     width: 100%;
-    
-    align-items: center;
-    justify-content:  space-evenly
- }
-
-.tituloduo
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttonsobre-min
 {
+
     color: white;
     marker: none;
     display: flex;
-    position: fixed;
-    top: 0;
-    
     align-items: center;
-    justify-content: flex-end
-
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.buttonmenu
+.buttonskills
 {
+
     color: white;
     marker: none;
     display: flex;
-    position: fixed;
-    top: 0;
-    
     align-items: center;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
+.buttoncontato
+{
 
+    color: white;
+    marker: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
 .sobre-min 
 {
     display: flex;
     border-radius: 20px;
-    justify-content: space-around;
     margin-top: 4%;
     flex-direction: column;
+    justify-content: space-around;
+    marker: none;
+
 }
 .skills  
 {
@@ -67,6 +70,7 @@ html
     justify-content: space-around;
     margin-top: 2%;
     flex-direction: column;
+    marker: none;
 }
 
 .contatos
@@ -76,6 +80,7 @@ html
     justify-content: space-around;
     margin-top: 2%;
     flex-direction: column;
+    marker: none;
 }
 
 .voltar-ao-inicio
@@ -84,7 +89,6 @@ html
     position: fixed;
     background-color: black;
     color: white;
-    marker: none;
     top: 0;
     height: 6%;
     align-items: center;
