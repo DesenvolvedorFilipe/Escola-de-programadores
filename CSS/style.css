@@ -7,6 +7,12 @@ body{
     
     
 }
+
+#texto-maiusculo 
+{
+    text-transform: uppercase;
+
+}
 .titulo
 {
     marker: none;
