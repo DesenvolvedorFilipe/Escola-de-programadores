@@ -11,8 +11,19 @@ body{
 #texto-maiusculo 
 {
     text-transform: uppercase;
+    
+}
+
+#img-verde{
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
 
 }
+
 
 .titulo
 {
@@ -27,7 +38,20 @@ body{
     justify-content: space-evenly;
 }
 
-.ordem
+.ordem-01
+{
+    
+   
+    display: flex;
+    border-radius: 20px;
+    margin-top: 4%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    marker: none;
+
+}
+
+.ordem-02
 {
     display: flex;
     border-radius: 20px;
@@ -38,14 +62,24 @@ body{
 
 }
 
-.volte-ao-inicio
+.ordem-03
 {
     display: flex;
-    position: fixed;
-    background-color: black;
-    color: white;
-    top: 0;
-    height: 6%;
-    align-items: center;
+    border-radius: 20px;
+    margin-top: 4%;
+    flex-direction: column;
     justify-content: space-evenly;
+    marker: none;
+
+}
+
+.ordem-04
+{
+    display: flex;
+    border-radius: 20px;
+    margin-top: 4%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    marker: none;
+
 }
