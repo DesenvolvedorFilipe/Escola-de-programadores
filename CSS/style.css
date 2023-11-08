@@ -10,20 +10,9 @@ body{
 
 #texto-maiusculo 
 {
+
     text-transform: uppercase;
-    
 }
-
-#img-verde{
-    flex-direction: row;
-    width: 30px;
-    height: 30px;
-    border: 5px solid blue;
-    display: flex;
-    flex-direction: row;
-
-}
-
 
 .titulo
 {
@@ -36,6 +25,17 @@ body{
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#img-verde
+{
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .ordem-01
