@@ -91,17 +91,16 @@ body{
 @media only screen and (max-width: 375px)
  {
     .ordem-01
-    {
-        
-        display: flex;
-        border-radius: 20px;
-        flex-wrap: wrap;
-        margin-top: 20%;
-        flex-direction: column;
-        justify-content: space-evenly;
-        
-        
-    }
+{
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
     .ordem-02
     {
         flex-wrap: wrap;
@@ -144,10 +143,9 @@ body{
  {
     .ordem-01
     {
-        
+        flex-wrap: wrap;
         display: flex;
         border-radius: 20px;
-        flex-wrap: wrap;
         margin-top: 20%;
         flex-direction: column;
         justify-content: space-evenly;
