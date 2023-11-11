@@ -45,47 +45,43 @@ body{
 }
 .ordem-01
 {
+    border-radius: 20px;
     flex-wrap: wrap;
     display: flex;
-    border-radius: 20px;
-    margin-top: 4%;
     flex-direction: column;
     justify-content: space-evenly;
-    
-    
+    align-items: center;
+    padding: 3%;
 }
 
 .ordem-02
 {
     display: flex;
     border-radius: 20px;
-    margin-top: 4%;
     flex-direction: column;
     justify-content: space-evenly;
-    
-
+    align-items: center;
+    padding: 15%;
 }
 
 .ordem-03
 {
     display: flex;
     border-radius: 20px;
-    margin-top: 4%;
     flex-direction: column;
     justify-content: space-evenly;
-    
-
+    align-items: center;
+    padding: 10%;
 }
 
 .ordem-04
 {
     display: flex;
     border-radius: 20px;
-    margin-top: 4%;
     flex-direction: column;
     justify-content: space-evenly;
-    
-
+    align-items: center;
+    padding: 1%;
 }
 
 @media only screen and (max-width: 375px)
