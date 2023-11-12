@@ -1,18 +1,17 @@
 body {
     color: white;
     margin: 0%;
-    background-color: black;
+    background-color: #6d695c;
     background-image:
-        radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px),
-        radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px),
-        radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px),
-        radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
-    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+        repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+        repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px),
+        linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
+        linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
+    background-size: 70px 120px;
 }
 
 .titulo {
-    padding: 0%;
+    padding: 1%;
     display: flex;
     position: fixed;
     top: 0;
@@ -61,14 +60,13 @@ nav>a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 0%;
+    padding-top: 2%;
     padding-bottom: 0%;
     text-transform: uppercase;
 }
 
-#sobre-min 
-{
-margin-top: 5%;
+#sobre-min {
+    margin-top: 6%;
 
 }
 
@@ -87,9 +85,9 @@ margin-top: 5%;
     justify-content: space-evenly;
     align-items: center;
     padding: 0%;
-    padding-bottom: 1%;
+    padding-bottom: 0%;
     padding-left: 0px;
-    padding-right: 120px;
+    padding-right: 126px;
 }
 
 .ordem-02 {
@@ -122,12 +120,80 @@ margin-top: 5%;
     padding: 1%;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 667px) {
+
+    .titulo {
+        padding: bottom 0px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+    nav {
+        background-color: var(--cor05);
+        border-color: white;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    }
+
+    nav>a {
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5;
+    }
+
+    nav>a:hover {
+        background-color: white;
+        color: black;
+        padding: 0%;
+    }
+
+
+    #texto-maiusculo {
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .titulo-center {
+        align-items: center;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        text-transform: uppercase;
+    }
+
+    #sobre-min {
+        margin-top: 40%;
+
+    }
+
+    .conteiner-padrao {
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
     .ordem-01 {
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
-        margin-top: 20%;
+        border-radius: 0px;
+        margin-top: 0%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -137,7 +203,6 @@ margin-top: 5%;
     .ordem-02 {
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
         margin-top: 4%;
         flex-direction: column;
         justify-content: space-evenly;
@@ -167,15 +232,82 @@ margin-top: 5%;
 
     }
 
-
 }
 
 @media only screen and (max-width: 430px) {
+
+    .titulo {
+        padding: bottom 0px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+    nav {
+        background-color: var(--cor05);
+        border-color: white;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    }
+
+    nav>a {
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5;
+    }
+
+    nav>a:hover {
+        background-color: white;
+        color: black;
+        padding: 0%;
+    }
+
+
+    #texto-maiusculo {
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .titulo-center {
+        align-items: center;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        text-transform: uppercase;
+    }
+
+    #sobre-min {
+        margin-top: 40%;
+
+    }
+
+    .conteiner-padrao {
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
     .ordem-01 {
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
-        margin-top: 20%;
+        border-radius: 0px;
+        margin-top: 0%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -185,7 +317,6 @@ margin-top: 5%;
     .ordem-02 {
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
         margin-top: 4%;
         flex-direction: column;
         justify-content: space-evenly;
