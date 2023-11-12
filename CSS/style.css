@@ -1,19 +1,17 @@
-
-body{
+body {
     color: white;
     margin: 0%;
-    background-color:black;
+    background-color: black;
     background-image:
-    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+        radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px),
+        radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px),
+        radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;        
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
-.titulo
-{
+.titulo {
     padding: 0%;
     display: flex;
     position: fixed;
@@ -28,14 +26,34 @@ body{
 
 }
 
-#texto-maiusculo 
-{
+nav {
+    background-color: var(--cor05);
+    border-color: white;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav>a {
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
+}
+
+nav>a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+#texto-maiusculo {
     align-items: center;
     text-transform: uppercase;
 }
 
-.titulo-center
-{
+.titulo-center {
     align-items: center;
     border-radius: 20px;
     flex-wrap: wrap;
@@ -43,21 +61,25 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 4%;
+    padding-top: 0%;
     padding-bottom: 0%;
     text-transform: uppercase;
 }
 
-.conteiner-padrao
+#sobre-min 
 {
+margin-top: 5%;
+
+}
+
+.conteiner-padrao {
     width: 1200px;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
 
-.ordem-01
-{
+.ordem-01 {
     border-radius: 20px;
     flex-wrap: wrap;
     display: flex;
@@ -67,11 +89,10 @@ body{
     padding: 0%;
     padding-bottom: 1%;
     padding-left: 0px;
-    padding-right: 112px;
+    padding-right: 120px;
 }
 
-.ordem-02
-{
+.ordem-02 {
     display: flex;
     border-radius: 20px;
     flex-direction: column;
@@ -82,19 +103,17 @@ body{
     padding-right: 0px;
 }
 
-.ordem-03
-{
+.ordem-03 {
     display: flex;
     border-radius: 20px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 1%;
-    
+
 }
 
-.ordem-04
-{
+.ordem-04 {
     display: flex;
     border-radius: 20px;
     flex-direction: column;
@@ -103,46 +122,42 @@ body{
     padding: 1%;
 }
 
-@media only screen and (max-width: 375px)
- {
-    .ordem-01
-{
-    flex-wrap: wrap;
-    display: flex;
-    border-radius: 20px;
-    margin-top: 20%;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-    
-}
-    .ordem-02
-    {
+@media only screen and (max-width: 375px) {
+    .ordem-01 {
+        flex-wrap: wrap;
+        display: flex;
+        border-radius: 20px;
+        margin-top: 20%;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+    }
+
+    .ordem-02 {
         flex-wrap: wrap;
         display: flex;
         border-radius: 20px;
         margin-top: 4%;
         flex-direction: column;
         justify-content: space-evenly;
-        
-    
+
+
     }
-    
-    .ordem-03
-    {
+
+    .ordem-03 {
         flex-wrap: wrap;
         display: flex;
         border-radius: 20px;
         margin-top: 4%;
         flex-direction: column;
         justify-content: space-evenly;
-        
-    
+
+
     }
-    
-    .ordem-04 
-    {
-    
+
+    .ordem-04 {
+
         flex-wrap: wrap;
         display: flex;
         border-radius: 20px;
@@ -151,49 +166,12 @@ body{
         justify-content: space-evenly;
 
     }
-    
-    
+
+
 }
-@media only screen and (max-width: 430px)
- {
-    .ordem-01
-    {
-        flex-wrap: wrap;
-        display: flex;
-        border-radius: 20px;
-        margin-top: 20%;
-        flex-direction: column;
-        justify-content: space-evenly;
-        
-        
-    }
-    .ordem-02
-    {
-        flex-wrap: wrap;
-        display: flex;
-        border-radius: 20px;
-        margin-top: 4%;
-        flex-direction: column;
-        justify-content: space-evenly;
-        
-    
-    }
-    
-    .ordem-03
-    {
-        flex-wrap: wrap;
-        display: flex;
-        border-radius: 20px;
-        margin-top: 4%;
-        flex-direction: column;
-        justify-content: space-evenly;
-        
-    
-    }
-    
-    .ordem-04 
-    {
-    
+
+@media only screen and (max-width: 430px) {
+    .ordem-01 {
         flex-wrap: wrap;
         display: flex;
         border-radius: 20px;
@@ -201,10 +179,41 @@ body{
         flex-direction: column;
         justify-content: space-evenly;
 
+
     }
-    
-    
+
+    .ordem-02 {
+        flex-wrap: wrap;
+        display: flex;
+        border-radius: 20px;
+        margin-top: 4%;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+    }
+
+    .ordem-03 {
+        flex-wrap: wrap;
+        display: flex;
+        border-radius: 20px;
+        margin-top: 4%;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+    }
+
+    .ordem-04 {
+
+        flex-wrap: wrap;
+        display: flex;
+        border-radius: 20px;
+        margin-top: 20%;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+
 }
-
-
-
