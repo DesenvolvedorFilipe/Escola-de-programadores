@@ -11,6 +11,30 @@ body {
     background-size: 70px 120px;
 }
 
+.titulo-one {
+    padding-left: 50px;
+
+}
+
+.endereço
+{
+    padding-left: 266px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#style-endereço
+{
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
+}
+
 .titulo {
     padding: 1%;
     display: flex;
@@ -31,6 +55,7 @@ nav {
     background-color: var(--cor05);
     border-color: white;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    padding-left: 40px;
 }
 
 nav>a {
@@ -74,11 +99,12 @@ nav>a:hover {
 
 #skills {
     margin-top: 50px;
-    padding-top: 7%;
+    padding-top: 0%;
 }
+
 #contatos {
     margin-top: 50px;
-    padding-top: 7%;
+    padding-top: 0%;
 }
 
 .conteiner-padrao {
@@ -98,8 +124,15 @@ nav>a:hover {
     padding: 0%;
     padding-bottom: 0%;
     padding-left: 0px;
-    padding-right: 126px;
+    padding-right: 138px;
 }
+
+#titulo-one
+{
+    padding-right: 20px;
+    
+}
+
 
 .ordem-02 {
     display: flex;
@@ -126,7 +159,7 @@ nav>a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-   
+
 }
 
 @media only screen and (max-width: 1355px) {
@@ -190,7 +223,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        
+
 
         text-transform: uppercase;
     }
@@ -199,11 +232,12 @@ nav>a:hover {
         margin-top: 50px;
         padding-top: 10%;
     }
-    
+
     #skills {
         margin-top: 0px;
         padding-top: 7%;
     }
+
     #contatos {
         margin-top: 0px;
         padding-top: 7%;
@@ -283,14 +317,14 @@ nav>a:hover {
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        
+
     }
 
     nav {
         background-color: var(--cor05);
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-        padding: 5px;
+        padding: 7px;
         padding-left: 60px;
     }
 
@@ -300,13 +334,13 @@ nav>a:hover {
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5;
-        
+
     }
 
     nav>a:hover {
         background-color: white;
         color: black;
-        padding: 6px;
+        padding: 10px;
 
     }
 
@@ -331,12 +365,14 @@ nav>a:hover {
     #sobre-min {
         margin-top: 20px;
         padding-top: 30%;
+        align-items: center;
     }
-    
+
     #skills {
         margin-top: 0px;
         padding-top: 0%;
     }
+
     #contatos {
         margin-top: 0px;
         padding-top: 0%;
@@ -393,4 +429,3 @@ nav>a:hover {
     }
 
 }
-
