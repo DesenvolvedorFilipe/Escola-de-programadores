@@ -16,8 +16,7 @@ body {
 
 }
 
-.endereço
-{
+.endereço {
     padding-left: 266px;
     padding-top: 0px;
     display: flex;
@@ -26,13 +25,11 @@ body {
     justify-content: flex-start;
 }
 
-#style-endereço
-{
-    color: black;
+#style-endereço {
+    color: white;
     padding-left: 20px;
-    text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.5;
+
 }
 
 .titulo {
@@ -73,23 +70,18 @@ nav>a:hover {
 
 }
 
-
-#texto-maiusculo {
-    align-items: center;
-    text-transform: uppercase;
-}
-
 .titulo-center {
     align-items: center;
-    border-radius: 0px;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 0%;
-    padding-bottom: 0%;
     text-transform: uppercase;
+    color: black;
+    font-size: larger;
+    font-size: 20px;
+
 }
 
 #sobre-min {
@@ -127,10 +119,9 @@ nav>a:hover {
     padding-right: 138px;
 }
 
-#titulo-one
-{
+#titulo-one {
     padding-right: 20px;
-    
+
 }
 
 
