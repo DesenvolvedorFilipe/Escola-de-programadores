@@ -217,7 +217,7 @@ nav>a:hover {
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
         align-items: center;
-        padding: 10px;
+        padding:3px;
     }
 
     nav>a {
@@ -303,10 +303,10 @@ nav>a:hover {
     .curriculo {
 
         display: flex;
-    padding-left: 45px;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+        padding-left: 45px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     #style-curriculo {
@@ -391,7 +391,7 @@ nav>a:hover {
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
         align-items: center;
-        padding: 10px;
+        padding: 5px;
     }
 
     nav>a {
@@ -431,7 +431,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-left: 50px;
+        padding-left: 0px;
 
     }
 
@@ -443,7 +443,7 @@ nav>a:hover {
     }
 
     .endereço {
-        padding-left: 44px;
+        padding-left: 0px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -477,7 +477,7 @@ nav>a:hover {
     }
 
     .curriculo {
-        padding-left: 45px;
+        padding-left: 44px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -536,9 +536,7 @@ nav>a:hover {
     }
 }
 
-
-
-@media only screen and (max-width: 539px) {
+@media only screen and (max-width: 430px) {
 
 
     .ordem-titulo {
@@ -568,7 +566,7 @@ nav>a:hover {
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
         align-items: center;
-        padding: 6px;
+        padding: 3px;
     }
 
     nav>a {
@@ -600,22 +598,27 @@ nav>a:hover {
 
     }
 
-    .ordem-sobre-min {
+    #titulo-sobre-min {
+        padding-top: 150px;
+    }
 
+    .ordem-sobre-min {
+        padding-top: 0px;
         display: flex;
-        border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
+        
         padding-left: 0px;
     }
 
     #sobre-min {
         margin-top: 0px;
-        padding-top: 40%;
-
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
 
     }
+
 
     .endereço {
         padding-left: 0px;
@@ -635,11 +638,14 @@ nav>a:hover {
 
     .ordem-skills {
         display: flex;
-        border-radius: 20px;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-left: 0px;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 0px;
+    align-content: flex-start;
     }
 
 
@@ -745,7 +751,7 @@ nav>a:hover {
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
         align-items: center;
-        padding: 5px;
+        padding: 2px;
     }
 
     nav>a {
@@ -754,7 +760,7 @@ nav>a:hover {
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5;
-        padding: 05px;
+        padding: 7px;
 
     }
 
@@ -777,7 +783,7 @@ nav>a:hover {
 
     }
 
-    #titulo-sobre-min{
+    #titulo-sobre-min {
         padding-top: 150px;
     }
 
@@ -790,16 +796,12 @@ nav>a:hover {
         padding-left: 0px;
     }
 
-    #titulo-sobre-min{
-
-    }
-
     #sobre-min {
         margin-top: 0px;
         display: flex;
         flex-direction: column;
         padding: 1px;
-       
+
     }
 
     .endereço {
@@ -807,7 +809,7 @@ nav>a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
 
     #style-endereço {
@@ -818,9 +820,7 @@ nav>a:hover {
     }
 
 
-    #titulo-skills{
-
-    }
+    #titulo-skills {}
 
     .ordem-skills {
         display: flex;
