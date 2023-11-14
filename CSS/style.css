@@ -12,34 +12,37 @@ body {
     background-size: 70px 120px;
 }
 
-.titulo {
+.ordem-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo-one {
     padding: 1%;
     display: flex;
     position: fixed;
     top: 0;
-    padding-left: 0px;
+
     background-color: black;
     color: white;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-size: 15px;
-
 }
 
-#titulo-one {
-    padding-right: 0px;
-padding-left: 0px;
-}
+#titulo-h1 {}
+
 
 nav {
     background-color: var(--cor05);
     border-color: white;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
     align-items: center;
-    padding-left: 35px;
+    padding: 1px;
 }
 
 nav>a {
@@ -49,6 +52,8 @@ nav>a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5;
+    padding: 20px;
+
 }
 
 nav>a:hover {
@@ -58,7 +63,7 @@ nav>a:hover {
 }
 
 .titulo-center {
-    padding-left: 50px;
+
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -78,18 +83,18 @@ nav>a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 
 #sobre-min {
     margin-top: 50px;
     padding-top: 7%;
-   
-    
+
+
 }
 
 .endereço {
-    padding-left: 302px;
+    padding-left: 299px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -106,19 +111,17 @@ nav>a:hover {
 
 .ordem-skills {
     display: flex;
-    padding-left: 156px;
     border-radius: 20px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
+    padding-left: 159px;
 }
 
 
-#skills 
-{
+#skills {
 
-    
+
     display: flex;
     flex-direction: column;
 
@@ -130,7 +133,7 @@ nav>a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    
+
 }
 
 #style-curriculo {
@@ -145,7 +148,8 @@ nav>a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
 
 }
 
@@ -163,6 +167,7 @@ nav>a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .ordem-voltar {
