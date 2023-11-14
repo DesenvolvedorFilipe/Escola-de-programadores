@@ -87,14 +87,14 @@ nav>a:hover {
 }
 
 #sobre-min {
-    margin-top: 50px;
-    padding-top: 7%;
+    padding-left: 10px;
+    padding-top: 10%;
 
 
 }
 
 .endereço {
-    padding-left: 299px;
+    padding-left: 295px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -150,6 +150,7 @@ nav>a:hover {
     justify-content: flex-start;
     font-family: Verdana, Tahoma, sans-serif;
     text-transform: uppercase;
+    color: white;
 
 }
 
@@ -186,14 +187,14 @@ nav>a:hover {
     margin: auto;
 }
 
-@media only screen and (max-width: 1355px) {
+@media only screen and (max-width: 1568px) {
 
     .ordem-titulo {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     #titulo-one {
         padding: 1%;
         display: flex;
@@ -207,10 +208,10 @@ nav>a:hover {
         flex-wrap: nowrap;
         font-size: 15px;
     }
-    
+
     #titulo-h1 {}
-    
-    
+
+
     nav {
         background-color: var(--cor05);
         border-color: white;
@@ -218,7 +219,7 @@ nav>a:hover {
         align-items: center;
         padding: 10px;
     }
-    
+
     nav>a {
         color: white;
         border-radius: 5px;
@@ -226,17 +227,17 @@ nav>a:hover {
         font-weight: bold;
         transition-duration: 0.5;
         padding: 20px;
-    
+
     }
-    
+
     nav>a:hover {
         background-color: white;
         color: black;
-    
+
     }
-    
+
     .titulo-center {
-    
+
         align-items: center;
         display: flex;
         justify-content: space-between;
@@ -245,43 +246,42 @@ nav>a:hover {
         font-size: 15px;
         font-family: Verdana, Tahoma, sans-serif;
         flex-direction: column;
-    
-    
+
+
     }
-    
+
     .ordem-sobre-min {
-        border-radius: 20px;
-        flex-wrap: wrap;
+        padding-left: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    
+        justify-content: center;
+        align-content: flex-start;
+        padding: 1px;
+
     }
-    
+
     #sobre-min {
-        margin-top: 50px;
-        padding-top: 7%;
-    
-    
+        padding-top: 150px;
+        padding-left: 50px;
+
     }
-    
+
     .endereço {
-        padding-left: 44px;
+        padding-left: 1px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
     }
-    
+
     #style-endereço {
         color: white;
         padding-left: 10px;
         font-weight: bold;
-    
+
     }
-    
-    
+
+
     .ordem-skills {
         display: flex;
         border-radius: 20px;
@@ -290,31 +290,207 @@ nav>a:hover {
         align-items: center;
         padding-left: 45px;
     }
-    
-    
+
+
     #skills {
-    
-    
+
+
         display: flex;
         flex-direction: column;
-    
+
     }
-    
+
+    .curriculo {
+
+        display: flex;
+    padding-left: 45px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    }
+
+    #style-curriculo {
+        color: black;
+        padding-left: 9px;
+        font-weight: bold;
+    }
+
+    .praticas-skills {
+        padding-left: 45px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    .ordem-contatos {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+    }
+
+    #contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .ordem-voltar {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .conteiner-padrao {
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+
+    .ordem-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titulo-one {
+        padding: 1%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        font-size: 15px;
+    }
+
+    #titulo-h1 {}
+
+
+    nav {
+        background-color: var(--cor05);
+        border-color: white;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav>a {
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5;
+        padding: 20px;
+
+    }
+
+    nav>a:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    .titulo-center {
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        flex-direction: column;
+
+
+    }
+
+    .ordem-sobre-min {
+        border-radius: 20px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 50px;
+
+    }
+
+    #sobre-min {
+        margin-top: 0px;
+        padding-top: 150px;
+
+
+    }
+
+    .endereço {
+        padding-left: 44px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #style-endereço {
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+
+    }
+
+
+    .ordem-skills {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 45px;
+    }
+
+
+    #skills {
+
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
     .curriculo {
         padding-left: 45px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-    
+
     }
-    
+
     #style-curriculo {
         color: black;
         padding-left: 10px;
         font-weight: bold;
     }
-    
+
     .praticas-skills {
         padding-left: 43px;
         display: flex;
@@ -323,35 +499,35 @@ nav>a:hover {
         justify-content: flex-start;
         font-family: Verdana, Tahoma, sans-serif;
         text-transform: uppercase;
-    
+
     }
-    
+
     .ordem-contatos {
         display: flex;
         border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-    
-    
+
+
     }
-    
+
     #contatos {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+
     }
-    
+
     .ordem-voltar {
         display: flex;
         border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-    
+
     }
-    
+
     .conteiner-padrao {
         width: 1200px;
         justify-content: center;
@@ -361,15 +537,15 @@ nav>a:hover {
 }
 
 
-@media only screen and (max-width: 375px) {
+
+@media only screen and (max-width: 539px) {
 
 
     .ordem-titulo {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+
     }
-    
+
     #titulo-one {
         padding: 1%;
         display: flex;
@@ -383,10 +559,10 @@ nav>a:hover {
         flex-wrap: nowrap;
         font-size: 15px;
     }
-    
+
     #titulo-h1 {}
-    
-    
+
+
     nav {
         background-color: var(--cor05);
         border-color: white;
@@ -394,7 +570,7 @@ nav>a:hover {
         align-items: center;
         padding: 6px;
     }
-    
+
     nav>a {
         color: white;
         border-radius: 5px;
@@ -402,17 +578,17 @@ nav>a:hover {
         font-weight: bold;
         transition-duration: 0.5;
         padding: 10px;
-    
+
     }
-    
+
     nav>a:hover {
         background-color: white;
         color: black;
-    
+
     }
-    
+
     .titulo-center {
-    
+
         align-items: center;
         display: flex;
         justify-content: space-between;
@@ -420,28 +596,27 @@ nav>a:hover {
         color: black;
         font-size: 15px;
         font-family: Verdana, Tahoma, sans-serif;
-        flex-direction: column;
-    
-    
+        padding-top: 1px;
+
     }
-    
+
     .ordem-sobre-min {
-        border-radius: 20px;
-        flex-wrap: wrap;
+
         display: flex;
+        border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-    
+        padding-left: 0px;
     }
-    
+
     #sobre-min {
         margin-top: 0px;
         padding-top: 40%;
-    
-    
+
+
     }
-    
+
     .endereço {
         padding-left: 0px;
         display: flex;
@@ -449,15 +624,15 @@ nav>a:hover {
         align-items: center;
         justify-content: flex-start;
     }
-    
+
     #style-endereço {
         color: white;
         padding-left: 10px;
         font-weight: bold;
-    
+
     }
-    
-    
+
+
     .ordem-skills {
         display: flex;
         border-radius: 20px;
@@ -466,31 +641,34 @@ nav>a:hover {
         align-items: center;
         padding-left: 0px;
     }
-    
-    
+
+
     #skills {
-    
-    padding-top: 40px;
+
+        padding-top: 40px;
         display: flex;
         flex-direction: column;
-    
+
     }
-    
+
     .curriculo {
         padding-left: 0px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: flex-start;
-    
+        justify-content: space-around;
+
     }
-    
+
     #style-curriculo {
         color: black;
         padding-left: 10px;
         font-weight: bold;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
     }
-    
+
     .praticas-skills {
         padding-left: 0px;
         display: flex;
@@ -500,35 +678,224 @@ nav>a:hover {
         font-family: Verdana, Tahoma, sans-serif;
         text-transform: uppercase;
         color: white;
-    
+
     }
-    
+
     .ordem-contatos {
         display: flex;
         border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-    
-    
+
+
     }
-    
+
     #contatos {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+
     }
-    
+
     .ordem-voltar {
         display: flex;
         border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-    
+
     }
-    
+
+    .conteiner-padrao {
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+
+
+    .ordem-titulo {
+        display: flex;
+
+    }
+
+    #titulo-one {
+        padding: 1%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        font-size: 15px;
+    }
+
+    #titulo-h1 {}
+
+
+    nav {
+        background-color: var(--cor05);
+        border-color: white;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+        align-items: center;
+        padding: 5px;
+    }
+
+    nav>a {
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5;
+        padding: 05px;
+
+    }
+
+    nav>a:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    .titulo-center {
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        padding-top: 1px;
+
+    }
+
+    #titulo-sobre-min{
+        padding-top: 150px;
+    }
+
+    .ordem-sobre-min {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    #titulo-sobre-min{
+
+    }
+
+    #sobre-min {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+       
+    }
+
+    .endereço {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #style-endereço {
+        color: white;
+        padding-left: 1px;
+        font-weight: bold;
+
+    }
+
+
+    #titulo-skills{
+
+    }
+
+    .ordem-skills {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+
+    #skills {
+
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .curriculo {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    #style-curriculo {
+        color: black;
+        padding-left: 10px;
+        font-weight: bold;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .praticas-skills {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    .ordem-contatos {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+    }
+
+    #contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .ordem-voltar {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
     .conteiner-padrao {
         width: 1200px;
         justify-content: center;
