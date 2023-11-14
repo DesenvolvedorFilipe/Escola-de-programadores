@@ -1,6 +1,7 @@
 body {
     color: white;
-    font-size: 18px;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
     margin: 0%;
     background-color: #6d695c;
     background-image:
@@ -11,32 +12,12 @@ body {
     background-size: 70px 120px;
 }
 
-.titulo-one {
-    padding-left: 50px;
-
-}
-
-.endereço {
-    padding-left: 266px;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-#style-endereço {
-    color: white;
-    padding-left: 20px;
-    font-weight: bold;
-
-}
-
 .titulo {
     padding: 1%;
     display: flex;
     position: fixed;
     top: 0;
+    padding-left: 0px;
     background-color: black;
     color: white;
     width: 100%;
@@ -44,15 +25,21 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 15px;
 
+}
+
+#titulo-one {
+    padding-right: 0px;
+padding-left: 0px;
 }
 
 nav {
     background-color: var(--cor05);
     border-color: white;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-    padding-left: 40px;
+    align-items: center;
+    padding-left: 35px;
 }
 
 nav>a {
@@ -71,32 +58,120 @@ nav>a:hover {
 }
 
 .titulo-center {
+    padding-left: 50px;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    flex-direction: column;
+
+
+}
+
+.ordem-sobre-min {
+    border-radius: 20px;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    text-transform: uppercase;
-    color: black;
-    font-size: larger;
-    font-size: 20px;
-
+    
 }
 
 #sobre-min {
     margin-top: 50px;
     padding-top: 7%;
+   
+    
 }
 
-#skills {
-    margin-top: 50px;
-    padding-top: 0%;
+.endereço {
+    padding-left: 302px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#style-endereço {
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+
+.ordem-skills {
+    display: flex;
+    padding-left: 156px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+#skills 
+{
+
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.curriculo {
+    padding-left: 303px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+#style-curriculo {
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.praticas-skills {
+    padding-left: 303px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+
+}
+
+.ordem-contatos {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
 }
 
 #contatos {
-    margin-top: 50px;
-    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ordem-voltar {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .conteiner-padrao {
@@ -104,53 +179,6 @@ nav>a:hover {
     justify-content: center;
     align-items: center;
     margin: auto;
-}
-
-.ordem-01 {
-    border-radius: 20px;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0%;
-    padding-bottom: 0%;
-    padding-left: 0px;
-    padding-right: 138px;
-}
-
-#titulo-one {
-    padding-right: 20px;
-
-}
-
-
-.ordem-02 {
-    display: flex;
-    border-radius: 20px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-.ordem-03 {
-    display: flex;
-    border-radius: 20px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
-
-}
-
-.ordem-04 {
-    display: flex;
-    border-radius: 20px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
 }
 
 @media only screen and (max-width: 1355px) {
@@ -163,10 +191,8 @@ nav>a:hover {
     }
 
     .titulo {
-        padding: bottom 0px;
         display: flex;
         position: fixed;
-        top: 0%;
         background-color: black;
         color: white;
         width: 100%;
@@ -200,12 +226,6 @@ nav>a:hover {
         padding: 10px;
     }
 
-
-    #texto-maiusculo {
-        align-items: center;
-        text-transform: uppercase;
-    }
-
     .titulo-center {
         align-items: center;
         border-radius: 20px;
@@ -214,9 +234,12 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-
-
         text-transform: uppercase;
+    }
+
+    .titulo-one {
+        padding-left: 50px;
+
     }
 
     #sobre-min {
@@ -224,14 +247,29 @@ nav>a:hover {
         padding-top: 10%;
     }
 
+    .endereço {
+        padding-left: 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #style-endereço {
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+
+    }
+
     #skills {
         margin-top: 0px;
-        padding-top: 7%;
+        padding-top: 0%;
     }
 
     #contatos {
         margin-top: 0px;
-        padding-top: 7%;
+        padding-top: 0%;
     }
 
     .conteiner-padrao {
@@ -244,8 +282,6 @@ nav>a:hover {
     .ordem-01 {
         flex-wrap: wrap;
         display: flex;
-        border-radius: 0px;
-        margin-top: 0%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -255,7 +291,6 @@ nav>a:hover {
     .ordem-02 {
         flex-wrap: wrap;
         display: flex;
-        margin-top: 4%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -265,8 +300,6 @@ nav>a:hover {
     .ordem-03 {
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
-        margin-top: 4%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -277,8 +310,6 @@ nav>a:hover {
 
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
-        margin-top: 20%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -315,7 +346,7 @@ nav>a:hover {
         background-color: var(--cor05);
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-        padding: 7px;
+        padding: 9px;
         padding-left: 60px;
     }
 
@@ -335,22 +366,19 @@ nav>a:hover {
 
     }
 
-
-    #texto-maiusculo {
-        align-items: center;
-        text-transform: uppercase;
-    }
-
     .titulo-center {
-        border-radius: 20px;
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-top: 20%;
-        padding-bottom: 0%;
+        padding-top: 10%;
         text-transform: uppercase;
+    }
+
+    .titulo-one {
+        padding-left: 50px;
+
     }
 
     #sobre-min {
@@ -359,14 +387,31 @@ nav>a:hover {
         align-items: center;
     }
 
+    .endereço {
+
+        padding-left: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #style-endereço {
+        color: white;
+        padding-left: 20px;
+        font-weight: bold;
+
+    }
+
     #skills {
         margin-top: 0px;
-        padding-top: 0%;
+        margin-top: 0px;
+        padding-bottom: 0%;
     }
 
     #contatos {
         margin-top: 0px;
-        padding-top: 0%;
+        padding-top: 10%;
     }
 
     .conteiner-padrao {
@@ -377,10 +422,9 @@ nav>a:hover {
     }
 
     .ordem-01 {
+        padding-right: 10px;
         flex-wrap: wrap;
         display: flex;
-        border-radius: 0px;
-        margin-top: 0%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -390,7 +434,6 @@ nav>a:hover {
     .ordem-02 {
         flex-wrap: wrap;
         display: flex;
-        margin-top: 0%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -400,8 +443,6 @@ nav>a:hover {
     .ordem-03 {
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
-        margin-top: 0%;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -412,8 +453,6 @@ nav>a:hover {
 
         flex-wrap: wrap;
         display: flex;
-        border-radius: 20px;
-        margin-top: 20%;
         flex-direction: column;
         justify-content: space-evenly;
 
