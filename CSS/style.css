@@ -188,279 +188,351 @@ nav>a:hover {
 
 @media only screen and (max-width: 1355px) {
 
-    body {
-        color: white;
-        font-size: 18px;
-        margin: 0%;
+    .ordem-titulo {
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
-
-    .titulo {
+    
+    #titulo-one {
+        padding: 1%;
         display: flex;
         position: fixed;
+        top: 0;
         background-color: black;
         color: white;
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-
+        flex-wrap: nowrap;
+        font-size: 15px;
     }
-
+    
+    #titulo-h1 {}
+    
+    
     nav {
         background-color: var(--cor05);
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-        padding: 1px;
-        padding-left: 11%;
+        align-items: center;
+        padding: 10px;
     }
-
+    
     nav>a {
         color: white;
-        padding: 10px;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5;
+        padding: 20px;
+    
     }
-
+    
     nav>a:hover {
         background-color: white;
         color: black;
-        padding: 10px;
+    
     }
-
+    
     .titulo-center {
+    
         align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        flex-direction: column;
+    
+    
+    }
+    
+    .ordem-sobre-min {
         border-radius: 20px;
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        text-transform: uppercase;
+    
     }
-
-    .titulo-one {
-        padding-left: 50px;
-
-    }
-
+    
     #sobre-min {
         margin-top: 50px;
-        padding-top: 10%;
+        padding-top: 7%;
+    
+    
     }
-
+    
     .endereço {
-        padding-left: 1px;
+        padding-left: 44px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
     }
-
+    
     #style-endereço {
         color: white;
         padding-left: 10px;
         font-weight: bold;
-
+    
     }
-
+    
+    
+    .ordem-skills {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 45px;
+    }
+    
+    
     #skills {
-        margin-top: 0px;
-        padding-top: 0%;
+    
+    
+        display: flex;
+        flex-direction: column;
+    
     }
-
+    
+    .curriculo {
+        padding-left: 45px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    
+    }
+    
+    #style-curriculo {
+        color: black;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+    
+    .praticas-skills {
+        padding-left: 43px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-transform: uppercase;
+    
+    }
+    
+    .ordem-contatos {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    
+    }
+    
     #contatos {
-        margin-top: 0px;
-        padding-top: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     }
-
+    
+    .ordem-voltar {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
     .conteiner-padrao {
         width: 1200px;
         justify-content: center;
         align-items: center;
         margin: auto;
     }
-
-    .ordem-01 {
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-
-    }
-
-    .ordem-02 {
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-
-    }
-
-    .ordem-03 {
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-
-    }
-
-    .ordem-04 {
-
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-    }
-
-
 }
 
 
 @media only screen and (max-width: 375px) {
 
-    body {
-        color: white;
-        font-size: 18px;
-        margin: 0%;
-    }
 
-    .titulo {
-        padding: bottom 0px;
+    .ordem-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #titulo-one {
+        padding: 1%;
         display: flex;
         position: fixed;
-        padding: 0px;
+        top: 0;
         background-color: black;
         color: white;
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-
+        flex-wrap: nowrap;
+        font-size: 15px;
     }
-
+    
+    #titulo-h1 {}
+    
+    
     nav {
         background-color: var(--cor05);
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-        padding: 9px;
-        padding-left: 60px;
+        align-items: center;
+        padding: 6px;
     }
-
+    
     nav>a {
         color: white;
-        border-radius: 10px;
+        border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5;
-
+        padding: 10px;
+    
     }
-
+    
     nav>a:hover {
         background-color: white;
         color: black;
-        padding: 10px;
-
+    
     }
-
+    
     .titulo-center {
+    
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        flex-direction: column;
+    
+    
+    }
+    
+    .ordem-sobre-min {
+        border-radius: 20px;
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-top: 10%;
-        text-transform: uppercase;
+    
     }
-
-    .titulo-one {
-        padding-left: 50px;
-
-    }
-
+    
     #sobre-min {
-        margin-top: 20px;
-        padding-top: 30%;
-        align-items: center;
+        margin-top: 0px;
+        padding-top: 40%;
+    
+    
     }
-
+    
     .endereço {
-
-        padding-left: 1px;
+        padding-left: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
-
+    
     #style-endereço {
         color: white;
-        padding-left: 20px;
+        padding-left: 10px;
         font-weight: bold;
-
+    
     }
-
+    
+    
+    .ordem-skills {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 0px;
+    }
+    
+    
     #skills {
-        margin-top: 0px;
-        margin-top: 0px;
-        padding-bottom: 0%;
+    
+    padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+    
     }
-
+    
+    .curriculo {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+    }
+    
+    #style-curriculo {
+        color: black;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+    
+    .praticas-skills {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-transform: uppercase;
+        color: white;
+    
+    }
+    
+    .ordem-contatos {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    
+    }
+    
     #contatos {
-        margin-top: 0px;
-        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     }
-
+    
+    .ordem-voltar {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
     .conteiner-padrao {
         width: 1200px;
         justify-content: center;
         align-items: center;
         margin: auto;
     }
-
-    .ordem-01 {
-        padding-right: 10px;
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-
-    }
-
-    .ordem-02 {
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-
-    }
-
-    .ordem-03 {
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-
-    }
-
-    .ordem-04 {
-
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-    }
-
 }
