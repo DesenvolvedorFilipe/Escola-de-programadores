@@ -10,6 +10,304 @@ body {
         linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
         linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
     background-size: 70px 120px;
+    
+}
+
+.ordem-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#titulo-one {
+    padding: 1%;
+    display: flex;
+    position: fixed;
+    top: 0;
+
+    background-color: black;
+    color: white;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+nav {
+    background-color: var(--cor05);
+    border-color: white;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    align-items: center;
+    padding: 1px;
+}
+
+nav>a {
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
+    padding: 20px;
+
+}
+
+nav>a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.titulo-center {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    flex-direction: column;
+
+
+}
+
+.ordem-sobre-min {
+    border-radius: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 50px;
+}
+
+#sobre-min {
+    padding-left: 10px;
+    padding-top: 10%;
+
+
+}
+
+.endereço {
+    padding-left: 295px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#style-endereço {
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.ordem-slides{
+
+}
+
+
+
+
+.slider{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    padding: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.slides{
+    width: 200%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+
+
+}
+
+.slides input {
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    position: relative;
+
+}
+
+.slide img {
+    width: 400px;
+
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+ 
+#radio2:checked~.first {
+margin-left: -25%;
+}
+
+#radio3:checked~.first{
+margin-left: -50%;
+
+}
+
+#radio4:checked~.first{
+margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navigation-auto div:not(:last-child){
+margin-right: 40px;
+}
+    
+#radio1:checked~.navigation-auto .auto-btn1{
+background-color: white;
+
+}
+
+#radio2:checked~.navigation-auto .auto-btn2{
+    background-color: white;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3{
+    background-color: white;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4{
+    background-color: white;
+}
+
+
+.ordem-skills {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 110px;
+}
+
+
+#skills {
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.curriculo {
+    padding-left: 303px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+#style-curriculo {
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.praticas-skills {
+    padding-left: 3000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.ordem-contatos {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+#contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ordem-voltar {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.conteiner-padrao {
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1920px) {
@@ -38,7 +336,7 @@ body {
         font-size: 15px;
     }
 
-    #titulo-h1 {}
+    
 
 
     nav {
@@ -147,7 +445,7 @@ body {
     }
 
     .praticas-skills {
-        padding-left: 3000px;
+        padding-left: 303px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -205,11 +503,9 @@ body {
         display: flex;
         position: fixed;
         top: 0;
-
         background-color: black;
         color: white;
         width: 100%;
-
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -217,7 +513,7 @@ body {
         font-size: 15px;
     }
 
-    #titulo-h1 {}
+
 
 
     nav {
@@ -397,7 +693,7 @@ body {
         font-size: 15px;
     }
 
-    #titulo-h1 {}
+ 
 
 
     nav {
@@ -1167,7 +1463,6 @@ body {
 
     #skills {
 
-
         display: flex;
         flex-direction: column;
 
@@ -1175,15 +1470,14 @@ body {
 
     .ordem-skills {
         display: flex;
-        
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-       
+        padding-left: 0px;
     }
 
     .curriculo {
-      
+        padding-left: 50px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1198,7 +1492,7 @@ body {
     }
 
     .praticas-skills {
-     
+        padding-left: 3px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1217,6 +1511,7 @@ body {
 
     .ordem-contatos {
         display: flex;
+        border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -1226,6 +1521,7 @@ body {
 
     .ordem-voltar {
         display: flex;
+        border-radius: 20px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
