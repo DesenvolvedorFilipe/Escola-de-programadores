@@ -60,7 +60,9 @@ nav>a:hover {
 
 }
 
-
+#titulo-sobre-min{
+    
+}
 
 
 
@@ -192,7 +194,7 @@ nav>a:hover {
 @media only screen and (max-width: 1920px) {
     body {
         color: white;
-        font-size: 15px;
+        font-size: 25px;
         font-family: Verdana, Tahoma, sans-serif;
         margin: 0%;
         background-color: #04380791;
@@ -224,7 +226,7 @@ nav>a:hover {
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     nav {
@@ -260,7 +262,7 @@ nav>a:hover {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 1050px;
+        left: 1100px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -275,7 +277,7 @@ nav>a:hover {
         height: 60px;
         padding: 0px;
         bottom: 2px;
-        left: 907px;
+        left: 930px;
         background-color: rgb(255, 255, 255) ;
         border-radius: 50px;
         text-align: center;
@@ -307,7 +309,7 @@ nav>a:hover {
         justify-content: space-between;
         text-transform: uppercase;
         color: black;
-        font-size: 15px;
+        font-size: 30px;
         font-family: Verdana, Tahoma, sans-serif;
         flex-direction: column;
 
@@ -321,7 +323,8 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-right: 65px;
+        padding-right: 60px;
+        padding-left: 80px;
     }
 
     #sobre-min {
@@ -332,7 +335,7 @@ nav>a:hover {
     }
 
     .endereço {
-        padding-left: 263px;
+        padding-left: 80px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -343,6 +346,7 @@ nav>a:hover {
         color: white;
         padding-left: 10px;
         font-weight: bold;
+        
 
     }
 
@@ -354,6 +358,7 @@ nav>a:hover {
         justify-content: space-evenly;
         align-items: center;
         padding-left: 92px;
+        padding-right: 100px;
     }
 
 
@@ -366,9 +371,9 @@ nav>a:hover {
     }
 
     .curriculo {
-        padding-left: 270px;
+        padding-left: 90px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-start;
 
@@ -376,12 +381,12 @@ nav>a:hover {
 
     #style-curriculo {
         color: black;
-        padding-left: 10px;
+        padding-left: 30px;
         font-weight: bold;
     }
 
     .praticas-skills {
-        padding-left: 270px;
+        padding-left: 90px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -426,11 +431,11 @@ nav>a:hover {
     }
 }
 
-@media only screen and (max-width: 1842px) {
+@media only screen and (max-width: 1872px) {
 
     body {
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         font-family: Verdana, Tahoma, sans-serif;
         margin: 0%;
         background-color: #04380791;
@@ -462,7 +467,7 @@ nav>a:hover {
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 
@@ -502,7 +507,7 @@ nav>a:hover {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 1030px;
+        left: 1000px;
         border-radius: 50px;
         text-align: center;
         font-size: 50px;
@@ -517,7 +522,7 @@ nav>a:hover {
         height: 60px;
         padding: 0px;
         bottom: 2px;
-        left: 930px;
+        left: 900px;
         background-color: rgb(255, 255, 255) ;
         border-radius: 50px;
         text-align: center;
@@ -533,7 +538,7 @@ nav>a:hover {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 830px;
+        left: 800px;
         background-color: #000000;
         border-radius: 50px;
         text-align: center;
@@ -551,7 +556,7 @@ nav>a:hover {
         justify-content: space-between;
         text-transform: uppercase;
         color: black;
-        font-size: 15px;
+        font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
         flex-direction: column;
 
@@ -565,7 +570,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-left: 90px;
+        padding-right: 220px;
     }
 
     #sobre-min {
@@ -581,7 +586,7 @@ nav>a:hover {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        
+        padding-left: 100px;
         
     }
 
@@ -601,7 +606,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-right: 60px;
+        padding-left: 100px;
     }
 
 
@@ -614,7 +619,7 @@ nav>a:hover {
     }
 
     .curriculo {
-        padding-left: 250px;
+        padding-left: 100px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -629,7 +634,255 @@ nav>a:hover {
     }
 
     .praticas-skills {
-        padding-left: 250px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    .ordem-contatos {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+    }
+
+    #contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .ordem-voltar {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .conteiner-padrao {
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1842px) {
+
+    body {
+        color: white;
+        font-size: 18px;
+        font-family: Verdana, Tahoma, sans-serif;
+        margin: 0%;
+        background-color: #04380791;
+        background-image:
+            repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px),
+            repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px),
+            linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
+            linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
+        background-size: 70px 120px;
+    
+    }
+
+    .ordem-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+    #titulo-one {
+        padding: 1%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+
+
+
+
+    nav {
+        background-color: var(--cor05);
+        border-color: white;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+        align-items: center;
+        padding: 1px;
+    }
+
+    nav>a {
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5;
+        padding: 20px;
+
+    }
+
+    nav>a:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+
+
+    .ordem-whatssap {
+        background-color: rgb(2, 136, 2);
+        color: rgb(0, 0, 0);
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 2px;
+        left: 1000px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 50px;
+        box-shadow: 0px 0px 9px 12px #61c942;
+        z-index: 1000;
+    }
+
+    .ordem-linkedin {
+        position: fixed;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        padding: 0px;
+        bottom: 2px;
+        left: 900px;
+        background-color: rgb(255, 255, 255) ;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 50px;
+        box-shadow: 0px 0px 9px 12px #61c942;
+        z-index: 1000;
+    }
+
+    .ordem-github {
+        align-items: center;
+        position: fixed;
+        margin-top: 10px;
+        width: 60px;
+        height: 60px;
+        bottom: 2px;
+        left: 800px;
+        background-color: #000000;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 50px;
+        box-shadow: 0px 0px 9px 12px #61c942;
+        z-index: 1000;
+    }
+
+
+
+    .titulo-center {
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Tahoma, sans-serif;
+        flex-direction: column;
+
+
+    }
+
+    .ordem-sobre-min {
+        border-radius: 20px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 200px;
+    }
+
+    #sobre-min {
+        padding-left: 0px;
+        padding-top: 10%;
+
+
+    }
+
+    .endereço {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 100px;
+        
+    }
+
+    #style-endereço {
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        display: flex;
+
+        
+    }
+
+
+    .ordem-skills {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+
+    #skills {
+
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .curriculo {
+        padding-left: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    #style-curriculo {
+        color: black;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .praticas-skills {
+        padding-left: 100px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -810,7 +1063,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-right: 220px;
+        padding-right: 200px;
     }
 
     #sobre-min {
@@ -821,7 +1074,7 @@ nav>a:hover {
     }
 
     .endereço {
-        padding-left: 90px;
+        padding-left: 95px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -919,7 +1172,7 @@ nav>a:hover {
 
     body {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         font-family: Verdana, Tahoma, sans-serif;
         margin: 0%;
         background-color: #04380791;
@@ -986,7 +1239,7 @@ nav>a:hover {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 720px;
+        left: 795px;
         background-color: #1bc55a;
         color: #ffffff;
         border-radius: 50px;
@@ -1002,7 +1255,7 @@ nav>a:hover {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 610px;
+        left: 705px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
@@ -1018,7 +1271,7 @@ nav>a:hover {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 500px;
+        left: 615px;
         background-color: #000000;
         color: #050505;
         border-radius: 60px;
@@ -1036,7 +1289,7 @@ nav>a:hover {
         justify-content: space-between;
         text-transform: uppercase;
         color: black;
-        font-size: 15px;
+        font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
         flex-direction: column;
 
@@ -1151,11 +1404,247 @@ nav>a:hover {
 
 }
 
+@media only screen and (max-width: 1280px) {
+    
+    body {
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        margin: 0%;
+        background-color: #04380791;
+        background-image:
+            repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px),
+            repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px),
+            linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
+            linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
+        background-size: 70px 120px;
+    
+    }
+
+    .ordem-titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titulo-one {
+        padding: 20px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        color: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        font-size: 15px;
+    }
+
+    #titulo-h1 {}
+
+
+    nav {
+        background-color: var(--cor05);
+        border-color: white;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+        align-items: center;
+        padding: 3px;
+    }
+
+    nav>a {
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.5;
+        padding: 20px;
+
+    }
+
+    nav>a:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+
+
+    .ordem-whatssap {
+        position: fixed;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        bottom: 2px;
+        left: 710px;
+        background-color: #1bc55a;
+        color: #ffffff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: 0px 0px 9px 12px #61c942;
+        z-index: 1000;
+    }
+
+    .ordem-linkedin {
+        align-items: center;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 2px;
+        left: 610px;
+        background-color: rgb(255, 244, 244);
+        color: rgb(4, 4, 156);
+        border-radius: 50px;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: 0px 0px 9px 12px #61c942;
+        z-index: 1000;
+    }
+
+    .ordem-github {
+        align-items: center;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 2px;
+        left: 510px;
+        background-color: #000000;
+        color: #050505;
+        border-radius: 60px;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: 0px 0px 9px 12px #61c942;
+        z-index: 1000;
+    }
+
+    .titulo-center {
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        flex-direction: column;
+
+
+    }
+
+    #sobre-min {
+        padding-top: 150px;
+        padding-left: 0px;
+
+    }
+
+    .ordem-sobre-min {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        
+    }
+
+    .endereço {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #style-endereço {
+        color: white;
+        padding-left: 10px;
+        font-weight: bold;
+
+    }
+
+    #skills {
+
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ordem-skills {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 45px;
+    }
+
+    .curriculo {
+
+        display: flex;
+        padding-left: 45px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #style-curriculo {
+        color: black;
+        padding-left: 9px;
+        font-weight: bold;
+    }
+
+    #contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .praticas-skills {
+        padding-left: 45px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: Verdana, Tahoma, sans-serif;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+    .ordem-contatos {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+    }
+
+    .ordem-voltar {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .conteiner-padrao {
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     
     body {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         font-family: Verdana, Tahoma, sans-serif;
         margin: 0%;
         background-color: #04380791;
