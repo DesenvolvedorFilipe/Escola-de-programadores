@@ -112,24 +112,32 @@
     </div>
 
     <section title="Botao-volte-ao-inicio">
-      <div class="ordem-voltar">
-        <butoon id="texto-maiusculo"><small><a href="#sobre-min">Voltar ao inicio</a></small></butoon>
+      <div class="ordem-linkedin">
+        <a href="http://127.0.0.1:5500/index.html" target="_top">
+          <i style="position: fixed; color: blue; left: 1500px; right: 100px;" class="fa-sharp fa-solid fa-arrow-up fa-bounce"></i>
+        </a>
+      </div>
 
       </div>
     </section>
 
     <section class="conteiner-formulario" title="formulario">
       <div>
+        <h2>E-mail</h2>
+      </div>
+    
+      <div>
         <form action="https://api.staticforms.xyz/submit" method="post">
-          <label for="name">Nome</label>
-          <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" id="name" required>
-          <label for="email">E-mail</label>
+          <label>Nome</label>
+          <input type="text" name="name"  placeholder="Digite seu nome" autocomplete="off" id="name" required><br>
+          <label >E-mail</label>
           <input type="text" name="email" placeholder="Digite seu e-mail" autocomplete="off" id="email" required></input>
-          <textarea name="message" cols="30" rows="10" placeholder="Mensagem" id="message" required></textarea>
+          <label>Mensagem</label>
+          <textarea name="message" cols="40" rows="10" placeholder="" id="message" required></textarea>
           <input type="hidden" name="accessKey" value="526cc79e-942e-4c19-998c-2381964f48c7">
           <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
           <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html" />
-          <button type="submit">ENVIAR</button>
+          <button id="botao" type="submit">ENVIAR</button>
         </form>
       </div>
     </section>
