@@ -170,6 +170,74 @@ nav>a:hover {
 
 }
 
+.conteiner-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #0d3f028f;
+    width: 400px;
+    box-shadow:#22611b4a;
+    border-radius: 20px;
+    font-size: 20;
+}
+
+.h2 {
+    color: white;
+    font-size: 3.5rem;
+    margin: 8rem;
+}
+
+#name {
+    font-size: 35.5px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#email {
+    font-size: 35.5px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#message {
+    font-family: 30.5px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#botao {
+    font-size: 27px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0px;
+}
+
+
+
+input {
+
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 50px;
+    font-size: 100px;
+    transition: all;
+}
+
+label{
+    font-size: 30px;
+
+}
+
 
 
 @media only screen and (max-width: 1920px) {
@@ -346,7 +414,7 @@ nav>a:hover {
 
         display: flex;
         flex-direction: column;
-
+        
     }
 
     .curriculo {
@@ -409,10 +477,11 @@ nav>a:hover {
         justify-content: center;
         flex-direction: column;
         padding: 10px 45px;
-        background: black;
-        width: 300px;
+        background: #0d3f028f;
+        width: 400px;
         box-shadow:#22611b4a;
         border-radius: 20px;
+        font-size: 20;
     }
 
     .h2 {
@@ -422,34 +491,35 @@ nav>a:hover {
     }
 
     #name {
-        font-size: 28px;
+        font-size: 35.5px;
         padding-bottom: 10px;
         border-radius: 20px;
     }
 
     #email {
-        font-size: 28px;
+        font-size: 35.5px;
         padding-bottom: 10px;
         border-radius: 20px;
     }
 
     #message {
-        font-size: 15.5px;
+        font-family: 30.5px;
         padding-bottom: 10px;
         border-radius: 20px;
     }
 
     #botao {
-        font-size: 26.5px;
+        font-size: 27px;
         width: 100%;
         border-radius: 20px;
     }
 
-    .section form {
+    form {
 
         display: flex;
         flex-direction: column;
         width: 100%;
+        font-size: 0px;
     }
 
     
@@ -460,8 +530,13 @@ nav>a:hover {
         outline: none;
         border: 0;
         margin-bottom: 50px;
-        font-size: 15px;
+        font-size: 100px;
         transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
     }
 }
 
@@ -598,7 +673,7 @@ nav>a:hover {
     }
 
     #titulo-sobre-min {
-        margin-top: 50px;
+        margin-top: 250px;
     }
 
     .ordem-sobre-min {
@@ -608,7 +683,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-right: 220px;
+        padding-right: 240px;
     }
 
 
@@ -709,6 +784,74 @@ nav>a:hover {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
     }
 }
 
@@ -845,7 +988,7 @@ nav>a:hover {
     }
 
     #titulo-sobre-min {
-        margin-top: 50px;
+        margin-top: 250px;
     }
 
     .ordem-sobre-min {
@@ -855,7 +998,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-right: 200px;
+        padding-right: 210px;
     }
 
 
@@ -956,6 +1099,73 @@ nav>a:hover {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
     }
 }
 
@@ -1196,6 +1406,74 @@ nav>a:hover {
         align-items: center;
         margin: auto;
     }
+
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
+    }
 }
 
 @media only screen and (max-width: 1568px) {
@@ -1326,7 +1604,7 @@ nav>a:hover {
     }
 
     #titulo-sobre-min {
-        margin-top: 50px;
+        margin-top: 200px;
     }
 
     .ordem-sobre-min {
@@ -1428,7 +1706,73 @@ nav>a:hover {
         margin: auto;
     }
 
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
 
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
+    }
 
 }
 
@@ -1562,7 +1906,7 @@ nav>a:hover {
 
     #titulo-sobre-min {
 
-        margin-top: 50px;
+        margin-top: 200px;
 
     }
 
@@ -1665,6 +2009,74 @@ nav>a:hover {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
     }
 }
 
@@ -1797,7 +2209,7 @@ nav>a:hover {
     }
 
     #titulo-sobre-min {
-        margin-top: 50px;
+        margin-top: 200px;
     }
 
     .ordem-sobre-min {
@@ -1899,6 +2311,73 @@ nav>a:hover {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
     }
 }
 
@@ -2028,14 +2507,14 @@ nav>a:hover {
     }
 
     #titulo-sobre-min {
-        margin-top: 150px;
+        margin-top: 250px;
 
 
     }
 
 
     .ordem-sobre-min {
-        padding-left: 10px;
+        padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2046,7 +2525,7 @@ nav>a:hover {
 
 
     .endereço {
-        padding-left: 10px;
+        padding: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -2068,7 +2547,7 @@ nav>a:hover {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-left: 10px;
+        padding: 10px;
 
     }
 
@@ -2089,7 +2568,7 @@ nav>a:hover {
     }
 
     .praticas-skills {
-        padding-left: 10px;
+        padding: 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -2133,6 +2612,73 @@ nav>a:hover {
         margin: auto;
     }
 
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
+    }
 }
 
 @media only screen and (max-width: 830px) {
@@ -2265,7 +2811,7 @@ nav>a:hover {
     }
 
     #titulo-sobre-min {
-        margin-top: 150px;
+        margin-top: 250px;
 
 
     }
@@ -2372,6 +2918,74 @@ nav>a:hover {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
     }
 }
 
@@ -2618,13 +3232,81 @@ nav>a:hover {
         align-items: center;
         margin: auto;
     }
+
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 45px;
+        background: #0d3f028f;
+        width: 400px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #email {
+        font-size: 35.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 100px;
+        transition: all;
+    }
+
+    label{
+        font-size: 30px;
+
+    }
 }
 
 @media only screen and (max-width: 430px) {
 
     body {
         color: white;
-        font-size: 15px;
+        font-size: 18px;
         font-family: Verdana, Tahoma, sans-serif;
         margin: 0%;
         background-color: #04380791;
@@ -2642,8 +3324,12 @@ nav>a:hover {
 
     }
 
+    #titulo-h1{
+        padding-left: 30px;
+    }
+
     #titulo-one {
-        padding: 1%;
+        padding: 0%;
         display: flex;
         position: fixed;
         top: 0;
@@ -2653,7 +3339,7 @@ nav>a:hover {
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #titulo-h1 {}
@@ -2664,7 +3350,7 @@ nav>a:hover {
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
         align-items: center;
-        padding: 3px;
+        padding: 15px;
     }
 
     nav>a {
@@ -2673,7 +3359,7 @@ nav>a:hover {
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5;
-        padding: 10px;
+        padding: 15px;
 
     }
 
@@ -2738,14 +3424,14 @@ nav>a:hover {
         justify-content: space-between;
         text-transform: uppercase;
         color: black;
-        font-size: 15px;
+        font-size: 20px;
         font-family: Verdana, Tahoma, sans-serif;
         padding-top: 1px;
 
     }
 
     #titulo-sobre-min {
-        margin-top: 150px;
+        margin-top: 200px;
     }
 
     #sobre-min {
@@ -2861,6 +3547,82 @@ nav>a:hover {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 50px;
+        background: #0d3f028f;
+        width: 300px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 30px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        padding: 0;
+    }
+
+    #email {
+        font-size: 30px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        padding: 0;
+    }
+
+    #message {
+        font-family: 30px;
+        
+        border-radius: 5px;
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    #botao {
+        font-size: 30px;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10;
+        
+    }
+
+    .form {
+
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+
+    
+
+    .input {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 10px;
+        transition: all;
+
+    }
+
+    label{
+        font-size: 20px;
+        
     }
 }
 
@@ -3101,17 +3863,100 @@ nav>a:hover {
 
     }
 
-    .conteiner-padrao {
-        width: 1200px;
-        justify-content: center;
+
+    .conteiner-formulario {
+        display: flex;
         align-items: center;
-        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 50px;
+        padding-left: 15px;
+        background: #0d3f028f;
+        width: 280px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
     }
 
+    .h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin: 8rem;
+    }
+
+    #name {
+        font-size: 30px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        padding: 0;
+    }
+
+    #email {
+        font-size: 30px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        padding: 0;
+    }
+
+    #message {
+        font-family: 30.5px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        width: 100%;
+        padding: 0;
+    }
+
+    #botao {
+        font-size: 27px;
+        width: 100%;
+        border-radius: 5px;
+        
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        font-size: 0px;
+    }
+
+    
+
+    input {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        font-size: 10px;
+        transition: all;
+
+    }
+
+    label{
+        font-size: 20px;
+        
+    }
 }
 
 @media only screen and (max-width: 280px) {
 
+    body {
+        color: white;
+        font-size: 20px;
+        font-family: Verdana, Tahoma, sans-serif;
+        margin: 0%;
+        background-color: #04380791;
+        background-image:
+            repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px),
+            repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px),
+            linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)),
+            linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1));
+        background-size: 70px 120px;
+       
+
+    }
 
     .ordem-titulo {
         display: flex;
@@ -3119,7 +3964,8 @@ nav>a:hover {
     }
 
     #titulo-one {
-        padding: 1%;
+       
+       
         display: flex;
         position: fixed;
         top: 0;
@@ -3129,7 +3975,7 @@ nav>a:hover {
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #titulo-h1 {}
@@ -3140,7 +3986,10 @@ nav>a:hover {
         border-color: white;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
         align-items: center;
-        padding: 2px;
+        flex-direction: row;
+        flex-direction: column;
+        display: flex;
+        padding: 10px;
     }
 
     nav>a {
@@ -3149,7 +3998,7 @@ nav>a:hover {
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5;
-        padding: 7px;
+        padding: 10px;
 
     }
 
@@ -3194,7 +4043,7 @@ nav>a:hover {
     .ordem-github {
         align-items: center;
         position: fixed;
-        margin-top: 10px;
+        margin-top: 0px;
         width: 60px;
         height: 60px;
         bottom: 2px;
@@ -3217,7 +4066,7 @@ nav>a:hover {
         color: black;
         font-size: 18px;
         font-family: Verdana, Tahoma, sans-serif;
-
+        padding-left: 50px;
 
     }
 
@@ -3230,7 +4079,7 @@ nav>a:hover {
     }
 
     #titulo-sobre-min {
-        margin-top: 150px;
+        margin-top: 350px;
     }
 
     .ordem-sobre-min {
@@ -3340,4 +4189,83 @@ nav>a:hover {
         margin: auto;
     }
 
+    .conteiner-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 80px;
+        background: #0d3f028f;
+        width: 100px;
+        box-shadow:#22611b4a;
+        border-radius: 20px;
+        font-size: 20;
+    }
+
+    .h2 {
+        color: white;
+        font-size: 4.5rem;
+        margin: 12rem;
+        width: 100%;
+    }
+
+    #name {
+      
+        font-size: 20px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        
+    }
+
+    #email {
+        font-size: 10px;
+     
+        padding-bottom: 10px;
+        border-radius: 20px;
+        
+    }
+
+    #message {
+        font-size: 20.5px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+       
+        padding: 10px;
+       
+    }
+
+    #botao {
+        font-size: 25.5px;
+        border-radius: 40px;
+        
+        
+    }
+
+    .form {
+        
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+
+    
+
+    .input {
+        
+        font-size: 10px;
+        outline: none;
+        border: 0;
+        margin-bottom: 50px;
+        transition: all;
+        
+       
+        
+    }
+
+    .label{
+        
+        font-size: 10.5px;
+       
+    }
 }
