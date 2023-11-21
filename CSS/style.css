@@ -240,6 +240,7 @@ label{
 
 
 
+
 @media only screen and (max-width: 1920px) {
     body {
         color: white;
@@ -480,7 +481,7 @@ label{
         background: #0d3f028f;
         width: 400px;
         box-shadow:#22611b4a;
-        border-radius: 20px;
+        
         font-size: 20;
     }
 
@@ -531,13 +532,14 @@ label{
         border: 0;
         margin-bottom: 50px;
         font-size: 100px;
-        transition: all;
+        transition: all 0.5;
     }
 
     label{
         font-size: 30px;
 
     }
+
 }
 
 @media only screen and (max-width: 1872px) {
@@ -3265,7 +3267,7 @@ label{
     }
 
     #message {
-        font-family: 30.5px;
+        font-family: 40.5px;
         padding-bottom: 10px;
         border-radius: 20px;
     }
@@ -3292,7 +3294,7 @@ label{
         outline: none;
         border: 0;
         margin-bottom: 50px;
-        font-size: 100px;
+        font-size: 500%;
         transition: all;
     }
 
@@ -4241,7 +4243,7 @@ label{
     #botao {
         font-size: 20px;
         width: 100%;
-        border-radius: 15px;
+        border-radius: 5px;
         
     }
 
