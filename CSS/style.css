@@ -4218,30 +4218,30 @@ label{
 
     #name {
         font-size: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         border-radius: 5px;
         padding: 10;
     }
 
     #email {
         font-size: 25px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         border-radius: 5px;
         padding: 10;
     }
 
     #message {
         font-size: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         border-radius: 10px;
         width: 100%;
         padding: 20;
     }
 
     #botao {
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
-        border-radius: 5px;
+        border-radius: 15px;
         
     }
 
@@ -4260,7 +4260,7 @@ label{
         padding: 20px;
         outline: none;
         border: 0;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         font-size: 10px;
         transition: all;
 
