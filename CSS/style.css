@@ -4191,12 +4191,13 @@ label{
 
     .conteiner-formulario {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
         flex-direction: column;
-        padding: 20px 80px;
-        background: #0d3f028f;
+        padding: 0px 80px;
         width: 100px;
+        background: #0d3f028f;
+       
         box-shadow:#22611b4a;
         border-radius: 20px;
         font-size: 20;
@@ -4204,68 +4205,69 @@ label{
 
     .h2 {
         color: white;
-        font-size: 4.5rem;
-        margin: 12rem;
+        font-size: 1.5rem;
+        margin: 4rem;
+        flex-direction: column;
         width: 100%;
+    
+    }
+    .titulo-email{
+        
+        font-size: 18px;
     }
 
     #name {
-      
-        font-size: 20px;
+        font-size: 25px;
         padding-bottom: 10px;
-        border-radius: 20px;
-        
+        border-radius: 5px;
+        padding: 10;
     }
 
     #email {
-        font-size: 10px;
-     
+        font-size: 25px;
         padding-bottom: 10px;
-        border-radius: 20px;
-        
+        border-radius: 5px;
+        padding: 10;
     }
 
     #message {
-        font-size: 20.5px;
-        padding-bottom: 20px;
-        border-radius: 20px;
-       
-        padding: 10px;
-       
+        font-size: 20px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        width: 100%;
+        padding: 20;
     }
 
     #botao {
-        font-size: 25.5px;
-        border-radius: 40px;
-        
+        font-size: 25px;
+        width: 100%;
+        border-radius: 5px;
         
     }
 
-    .form {
-        
+    form {
+
         display: flex;
         flex-direction: column;
-        
-       
+        padding: 50px;
+        font-size: 0px;
     }
 
     
 
-    .input {
-        
-        font-size: 10px;
+    input {
+        width: 100%;
+        padding: 20px;
         outline: none;
         border: 0;
         margin-bottom: 50px;
+        font-size: 10px;
         transition: all;
-        
-       
-        
+
     }
 
-    .label{
+    label{
+        font-size: 20px;
         
-        font-size: 10.5px;
-       
     }
 }
