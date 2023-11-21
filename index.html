@@ -23,6 +23,7 @@
 
   <link rel="stylesheet" href="img/all.min.css" />
 
+
   <script src="https://kit.fontawesome.com/fe6d35fd17.js" crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -110,11 +111,6 @@
       <h3 id="titulo-contatos"><i>Entre em contatos comigo!</i></h3>
     </div>
 
-
-    <p>Numero: (31) 98250-6368</p>
-    <p>E-mail: devfilipe384@gmail.com</p>
-
-
     <section title="Botao-volte-ao-inicio">
       <div class="ordem-voltar">
         <butoon id="texto-maiusculo"><small><a href="#sobre-min">Voltar ao inicio</a></small></butoon>
@@ -122,8 +118,25 @@
       </div>
     </section>
 
+    <section class="conteiner-formulario" title="formulario">
+      <div>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <label for="name">Nome</label>
+          <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" id="name" required>
+          <label for="email">E-mail</label>
+          <input type="text" name="email" placeholder="Digite seu e-mail" autocomplete="off" id="email" required></input>
+          <textarea name="message" cols="30" rows="10" placeholder="Mensagem" id="message" required></textarea>
+          <input type="hidden" name="accessKey" value="526cc79e-942e-4c19-998c-2381964f48c7">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html" />
+          <button type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </section>
+
     <div class="ordem-whatssap">
-      <a href="https://web.whatsapp.com/55(3182506368) text=Olá!" target="_blank">
+      <a href="https://api.whatsapp.com/send/?phone=5531982506368&text=ol%C3%A1+%21&type=phone_number&app_absent=0"
+        target="_blank">
         <eu style="color: white;" class="fa-brands fa-whatsapp fa-beat"></eu>
       </a>
     </div>
@@ -136,7 +149,7 @@
 
     <div class="ordem-github">
       <a href="https://github.com/DesenvolvedorFilipe" target="_blank">
-        <eu style="color: white;" class="fa-brands fa-github fa-beat"></eu>
+        <eu style="color: rgb(146, 4, 146);" class="fa-brands fa-github fa-beat"></eu>
       </a>
     </div>
   </section>

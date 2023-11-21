@@ -178,12 +178,7 @@ margin-top:200px ;
 
 }
 
-.conteiner-padrao {
-    width: 1200px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
+
 
 @media only screen and (max-width: 1920px) {
     body {
@@ -422,10 +417,7 @@ margin-top:200px ;
     }
 
     .conteiner-padrao {
-        width: 1200px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
+       
     }
 }
 
@@ -1063,7 +1055,7 @@ margin-top:200px ;
     }
 
     #titulo-sobre-min {
-        margin-top: 50px;
+        margin-top: 200px;
      }
 
     .endereço {
