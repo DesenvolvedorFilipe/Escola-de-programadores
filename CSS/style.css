@@ -387,11 +387,11 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 550px;
-        height: 550px;
+        width: 650px;
+        height: 650px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 33%;
     }
 
     .ordem-sobre-min {
@@ -710,7 +710,7 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 35%;
     }
 
     .ordem-sobre-min {
@@ -1038,7 +1038,7 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 34%;
     }
 
     .ordem-sobre-min {
@@ -1063,7 +1063,7 @@ label {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        padding-left: 100px;
+        padding-left: 95px;
 
     }
 
@@ -1360,7 +1360,7 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 35%;
     }
 
     .ordem-sobre-min {
@@ -1677,11 +1677,11 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 550px;
+        width: 500px;
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 33%;
     }
 
     .ordem-sobre-min {
@@ -1695,7 +1695,7 @@ label {
     }
 
     #texto-sobre-min{
-        padding-left: 95px;
+        padding-left: 50px;
     }
 
     .endereço {
@@ -1979,7 +1979,7 @@ label {
         justify-content: space-between;
         text-transform: uppercase;
         color: black;
-        font-size: 15px;
+        font-size: 18px;
         font-family: Verdana, Tahoma, sans-serif;
         flex-direction: column;
 
@@ -1998,7 +1998,7 @@ label {
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 28%;
     }
 
     .ordem-sobre-min {
@@ -2012,7 +2012,7 @@ label {
     }
 
     #texto-sobre-min{
-        padding-left: 95px;
+        padding-left: 50px;
     }
 
     .endereço {
@@ -2297,7 +2297,7 @@ label {
         justify-content: space-between;
         text-transform: uppercase;
         color: black;
-        font-size: 15px;
+        font-size: 18px;
         font-family: Verdana, Tahoma, sans-serif;
         flex-direction: column;
 
@@ -2310,11 +2310,11 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 550px;
+        width: 500px;
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 25%;
     }
 
     .ordem-sobre-min {
@@ -2328,7 +2328,7 @@ label {
     }
 
     #texto-sobre-min{
-        padding-left: 95px;
+        padding-left: 50px;
     }
 
     .endereço {
@@ -2626,11 +2626,11 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 550px;
+        width: 500px;
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 23%;
     }
 
     .ordem-sobre-min {
@@ -2644,7 +2644,7 @@ label {
     }
 
     #texto-sobre-min{
-        padding-left: 95px;
+        padding-left: 10px;
     }
 
 
@@ -2877,7 +2877,7 @@ label {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 490px;
+        left: 510px;
         background-color: #1bc55a;
         color: #ffffff;
         border-radius: 50px;
@@ -2893,7 +2893,7 @@ label {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 370px;
+        left: 395px;
         background-color: rgb(255, 244, 244);
         color: rgb(4, 4, 156);
         border-radius: 50px;
@@ -2909,7 +2909,7 @@ label {
         width: 60px;
         height: 60px;
         bottom: 2px;
-        left: 250px;
+        left: 280px;
         background-color: #000000;
         color: #050505;
         border-radius: 60px;
@@ -2942,11 +2942,11 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 550px;
+        width: 500px;
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 20%;
     }
 
     .ordem-sobre-min {
@@ -2960,9 +2960,8 @@ label {
     }
 
     #texto-sobre-min{
-        padding-left: 95px;
+        padding-left: 10px;
     }
-
     .endereço {
 
         display: flex;
@@ -3262,11 +3261,11 @@ label {
 
     #img-foto {
         border-radius: 20px;
-        width: 550px;
+        width: 500px;
         height: 550px;
         border-radius: 400%;
         float: left;
-        margin-left: 36%;
+        margin-left: 2%;
     }
 
     .ordem-sobre-min {
@@ -3280,7 +3279,7 @@ label {
     }
 
     #texto-sobre-min{
-        padding-left: 95px;
+        padding-left: 10px;
     }
 
     .endereço {
