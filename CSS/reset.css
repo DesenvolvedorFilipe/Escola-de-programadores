@@ -1,12 +1,21 @@
-*{
-   
+body{
+background-color: black;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif
 
+}
+
+
+
+.obrigado{
+    color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 200px;
+    font-size: 50px;
+    flex-direction: column;
 
 }
 
 
-*{
-   
-
-
-}
