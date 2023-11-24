@@ -19,3 +19,25 @@ margin: 0;
 }
 
 
+
+body {
+	background: black;
+	overflow: hidden;
+	color: white;
+}
+
+canvas {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.fogos{
+    padding-top: 200px;
+    padding-left: 50px;
+    font-size: 40px;
+}
